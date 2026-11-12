@@ -1,5 +1,7 @@
 # 几猫国产 3A 大作 · V1
 
+**[🎮 点击在线试玩](https://h-pl.github.io/jimao-3a/)** — 打开后点击「开始行动」即可游玩，支持电脑键鼠和手机触屏。
+
 一个可以直接在浏览器中运行的 3D 第一人称射击小游戏。以失控的港区防御系统为背景，玩家扮演几猫突击小队成员，在集装箱堆场、仓库和码头之间穿行，切断三处上行中继，突破机械守卫的封锁，最终登船撤离。
 
 项目采用单文件静态页面形式：HTML、CSS、JavaScript 与 Three.js 渲染代码均已内置在 `index.html` 中，无需安装依赖、构建工具或后端服务。
@@ -49,7 +51,7 @@ python3 -m http.server 8000
 
 将 `index.html` 放到静态网站的根目录即可运行，无需构建命令。
 
-如需启用 GitHub Pages，在仓库 **Settings → Pages** 中选择 **Deploy from a branch**，分支选择 **main**，目录选择 **/ (root)**，保存后等待发布。
+本仓库已启用 **GitHub Pages**，从 **main** 分支的 **/ (root)** 目录自动发布。在线地址：[https://h-pl.github.io/jimao-3a/](https://h-pl.github.io/jimao-3a/)。后续更新推送到 `main` 后，GitHub Pages 会自动重新部署。
 
 ## 文件说明
 
